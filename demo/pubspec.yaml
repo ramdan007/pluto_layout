@@ -14,8 +14,8 @@ dependencies:
   url_launcher: ^6.1.6
   pluto_grid: ^5.4.1
   pluto_menu_bar: ^2.0.1
-  pluto_layout:
-    path: ../
+  pluto_layout: ^0.3.0
+
 
 dev_dependencies:
   flutter_test:

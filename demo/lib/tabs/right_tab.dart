@@ -10,11 +10,16 @@ class RightTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PlutoLayoutTabs(
+      mode: PlutoLayoutTabMode.showSelected,
       draggable: true,
+      tabViewSizeResolver: const PlutoLayoutTabViewSizeConstrains(
+        minSize: 100,
+      ),
       items: [
         PlutoLayoutTabItem(
           id: ExampleText.donateTitle,
           title: ExampleText.donateTitle,
+          sizeResolver: const PlutoLayoutTabItemSizeInitial(300),
           tabViewWidget: Padding(
             padding: const EdgeInsets.all(15),
             child: ListView(
@@ -82,6 +87,7 @@ class RightTab extends StatelessWidget {
         PlutoLayoutTabItem(
           id: ExampleText.jetbrainsTitle,
           title: ExampleText.jetbrainsTitle,
+          sizeResolver: const PlutoLayoutTabItemSizeFlexible(0.5),
           tabViewWidget: Padding(
             padding: const EdgeInsets.all(15),
             child: ListView(

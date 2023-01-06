@@ -35,7 +35,7 @@ class LeftTab extends StatelessWidget {
         PlutoLayoutTabItem(
           id: ExampleText.aboutLayoutTitle,
           title: ExampleText.aboutLayoutTitle,
-          sizeResolver: const PlutoLayoutTabItemSizeFlexible(0.7),
+          sizeResolver: const PlutoLayoutTabItemSizeFlexible(0.5),
           tabViewWidget: Padding(
             padding: const EdgeInsets.all(15),
             child: ListView(
@@ -52,7 +52,7 @@ class LeftTab extends StatelessWidget {
         PlutoLayoutTabItem(
           id: ExampleText.nestedTabsTitle,
           title: ExampleText.nestedTabsTitle,
-          sizeResolver: const PlutoLayoutTabItemSizeFlexible(0.3),
+          sizeResolver: const PlutoLayoutTabItemSizeFlexible(0.5),
           tabViewWidget: Padding(
             padding: const EdgeInsets.all(15),
             child: ListView(

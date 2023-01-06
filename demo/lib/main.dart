@@ -19,7 +19,7 @@ class DemoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(useMaterial3: true),
+      theme: ThemeData.light(useMaterial3: true),
       home: const DemoPage(),
     );
   }
@@ -105,6 +105,8 @@ class DemoPage extends StatelessWidget {
             LogicalKeySet(LogicalKeyboardKey.shift, LogicalKeyboardKey.keyW):
                 PlutoLayoutActions.removeTabItem(),
           },
+
+
           body: const PlutoLayoutContainer(
             child: HomeScreen(),
           ),

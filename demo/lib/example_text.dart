@@ -1,21 +1,23 @@
 class ExampleText {
+  static const String aboutTitle0 = 'About Pluto Series';
+  static const String aboutDesc10 = 'Pluto widgets are mainly Flutter packages for developing CMS or admin services.';
+  static const String aboutDesc20 = 'All widgets are open source and the source code is publicly available on GitHub.';
+
+  static const String aboutLayoutTitle0 = 'About Pluto Layout';
+  static const String aboutLayoutDesc10 = 'PlutoLayout is a Flutter UI package that can configure a menu or tab screen on each side.';
+  static const String aboutLayoutDesc20 = 'You can adjust the width of the tab menu by dragging the right border of the tab menu.';
+
   static const String aboutTitle = 'About Pluto Series';
-  static const String aboutDesc1 =
-      'Pluto widgets are mainly Flutter packages for developing CMS or admin services.';
-  static const String aboutDesc2 =
-      'All widgets are open source and the source code is publicly available on GitHub.';
+  static const String aboutDesc1 = 'Pluto widgets are mainly Flutter packages for developing CMS or admin services.';
+  static const String aboutDesc2 = 'All widgets are open source and the source code is publicly available on GitHub.';
 
   static const String aboutLayoutTitle = 'About Pluto Layout';
-  static const String aboutLayoutDesc1 =
-      'PlutoLayout is a Flutter UI package that can configure a menu or tab screen on each side.';
-  static const String aboutLayoutDesc2 =
-      'You can adjust the width of the tab menu by dragging the right border of the tab menu.';
+  static const String aboutLayoutDesc1 = 'PlutoLayout is a Flutter UI package that can configure a menu or tab screen on each side.';
+  static const String aboutLayoutDesc2 = 'You can adjust the width of the tab menu by dragging the right border of the tab menu.';
 
   static const String nestedTabsTitle = 'Nested Tabs';
-  static const String nestedTabsDesc1 =
-      'You can configure nested tab views by activating multiple tabs.';
-  static const String nestedTabsDesc2 =
-      'You can adjust the height of each tab view by dragging the border between overlapping tab views up and down.';
+  static const String nestedTabsDesc1 = 'You can configure nested tab views by activating multiple tabs.';
+  static const String nestedTabsDesc2 = 'You can adjust the height of each tab view by dragging the border between overlapping tab views up and down.';
 
   static const String homeTitle = 'Pluto Layout Example';
   static const String homeDesc1 =
